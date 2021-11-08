@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure fo table `buku`
+-- Table structure for table `buku`
 --
 
 CREATE TABLE `buku` (

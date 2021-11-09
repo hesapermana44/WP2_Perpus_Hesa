@@ -55,7 +55,7 @@ class ModelBuku extends CI_Model
  $this->db->update('kategori', $data, $where);
  }
  //join
- public function joinKategoriBuku($where))
+ public function joinKategoriBuku($where)
  {
  $this->db->select('buku.id_kategori,kategori.kategori');
  $this->db->from('buku');
